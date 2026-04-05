@@ -6,7 +6,7 @@ server:
   port: 8081
 
 openai:
-  api-key: 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
+  api-key: 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
   base-url: https://openrouter.ai/api/v1
   model-name: deepseek/deepseek-chat-v3
   temperature: 0.2

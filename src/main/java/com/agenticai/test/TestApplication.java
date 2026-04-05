@@ -54,7 +54,7 @@ public class TestApplication {
 	        EmbeddingStorageService.store(segments, embeddingModel, store);
 
 	        // Step 4: User Query
-	        String query = "Total salary of Rahul and Meera";
+	        String query = "Total salary of Rahul , Meera and Suresh";
 
 	        // Step 5: Retrieve Context
 	        List<TextSegment> context = RetrievalService.retrieve(query, embeddingModel, store);
